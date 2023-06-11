@@ -1,0 +1,10 @@
+appId: com.example.taskPlanApp
+---
+- launchApp
+- tapOn: "Cadastrar"
+- tapOn: "Nome"
+- inputText: "Teste"
+- tapOn: "Senha"
+- inputText: "Teste"
+- tapOn: "Cadastrar"
+- assertVisible: "Cadastrado com sucesso!"

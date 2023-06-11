@@ -1,0 +1,11 @@
+appId: com.example.taskPlanApp
+---
+- launchApp:
+    clearState: true
+- tapOn: "Entrar"
+- tapOn: "Nome"
+- inputText: "Teste"
+- tapOn: "Senha"
+- inputText: "Teste"
+- tapOn: "Entrar"
+- assertVisible: "Login Efetuado com sucesso!"
